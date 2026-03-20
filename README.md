@@ -6,7 +6,8 @@ A CTF challenge designed to teach **Error-Based Server-Side Template Injection (
 
 ## Overview
 
-This is a "Template Preview" web application that lets users input Jinja2 template code and renders it on the server. However, the rendered output is **never shown** — only a fixed success message or raw error messages are returned.
+This is a "Template Preview" web application that lets users input Jinja2 template code and renders it on the server. 
+However, the rendered output is **never shown** — only a fixed success message or raw error messages are returned.
 
 The challenge is to extract the flag using **error-based exfiltration** techniques.
 
