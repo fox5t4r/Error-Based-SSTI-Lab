@@ -28,13 +28,6 @@ Access at `http://localhost:52411`
 | Difficulty | Easy |
 | Filtering | None |
 
-## How It Works
-
-- **Success**: Returns `"Rendered successfully."` — the actual render result is hidden
-- **Error**: Returns the raw error message — this is the only exfiltration channel
-
-Both responses use the same HTTP status code (200) and identical UI styling, so the error channel is not immediately obvious.
-
 ## Setup
 
 ### Requirements
