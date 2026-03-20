@@ -41,14 +41,6 @@ Access at `http://localhost:52411`
 |----------|---------|-------------|
 | `FLAG` | `WSL{fake_flag}` | The flag to capture |
 
-## Security
-
-- Runs as non-root user (`ctfuser`)
-- Read-only filesystem
-- All capabilities dropped
-- Resource limits enforced (CPU, memory, PIDs)
-- Security headers (CSP, X-Frame-Options, X-Content-Type-Options)
-
 ## License
 
 For educational purposes only.
