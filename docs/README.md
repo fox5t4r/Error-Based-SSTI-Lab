@@ -18,15 +18,20 @@ Top 10 web hacking techniques of 2025 에 소개되었던 **Successful Errors: N
 ## Environment
 
 ```
-ssti_lab_lv1/
-├── app.py                 # Flask 앱 (SSTI 취약점 포함)
-├── templates/
-│   └── index.html         # 단일 Output UI
-├── static/
-│   └── style.css
-├── Dockerfile             # Python 3.11-slim, gunicorn
-├── docker-compose.yml     # Port 52411, 보안 설정
-└── requirements.txt       # flask==3.0.0, gunicorn==21.2.0
+/
+├── app/                       # 챌린지 소스코드
+│   ├── app.py                 # Flask 앱 (SSTI 취약점 포함)
+│   ├── templates/
+│   │   └── index.html         # 단일 Output UI
+│   └── static/
+│       └── style.css
+├── docs/                      # 문서
+│   ├── README.md              # 이 파일
+│   └── SOLVE.md               # 풀이 writeup
+├── Dockerfile                 # Python 3.11-slim, gunicorn
+├── docker-compose.yml         # Port 52411, 보안 설정
+├── requirements.txt           # flask==3.0.0, gunicorn==21.2.0
+└── .gitignore
 ```
 
 | Component | Detail |

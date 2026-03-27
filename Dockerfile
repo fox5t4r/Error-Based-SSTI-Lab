@@ -5,9 +5,9 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY app.py .
-COPY templates/ templates/
-COPY static/ static/
+COPY app/app.py .
+COPY app/templates/ templates/
+COPY app/static/ static/
 
 RUN echo "WSL{PerFecT_3rr0r_b4s3d_sst1}" > /flag.txt && chmod 444 /flag.txt
 
